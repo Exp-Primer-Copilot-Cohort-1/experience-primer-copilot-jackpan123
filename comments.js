@@ -1,4 +1,4 @@
-// Create web server
+// Create web server 
 app.get('/comments', (req, res) => {
     // Get all comments from DB
     db.collection('comments').find().toArray((err, result) => {
